@@ -3,4 +3,10 @@
     return num1 + num2;
   }
   add(1, 2);
+
+  function fetchNum(id: string): Promise<number> {
+    return new Promise((resolve, reject) => {
+      resolve(100);
+    });
+  }
 }
